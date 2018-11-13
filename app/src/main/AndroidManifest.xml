@@ -25,7 +25,8 @@
         <!-- android:name=".activity.LoginActivity" -->
         <!-- android:label="@string/title_activity_login"></activity> -->
         <activity android:name=".activity.user.RegisterActivity" />
-        <activity android:name=".activity.user.ForgotActivity"></activity>
+        <activity android:name=".activity.user.ForgotActivity" />
+        <activity android:name=".activity.BaseActivity"></activity>
     </application>
 
 </manifest>

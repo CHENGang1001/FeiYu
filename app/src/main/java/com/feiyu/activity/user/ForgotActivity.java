@@ -4,8 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 
 import com.feiyu.R;
+import com.feiyu.activity.BaseActivity;
 
-public class ForgotActivity extends Activity {
+public class ForgotActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

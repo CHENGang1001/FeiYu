@@ -1,6 +1,5 @@
 package com.feiyu.activity.user;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -8,12 +7,13 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.feiyu.R;
+import com.feiyu.activity.BaseActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class RegisterActivity extends Activity {
+public class RegisterActivity extends BaseActivity {
 
     @BindView(R.id.tv_login)
     TextView tvLogin;

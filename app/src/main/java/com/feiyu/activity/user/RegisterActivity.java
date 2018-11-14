@@ -10,7 +10,6 @@ import com.feiyu.R;
 import com.feiyu.activity.BaseActivity;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class RegisterActivity extends BaseActivity {
@@ -34,7 +33,6 @@ public class RegisterActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-        ButterKnife.bind(this);
     }
 
     @OnClick({R.id.tv_login, R.id.tv_verify, R.id.bt_register, R.id.tv_show})

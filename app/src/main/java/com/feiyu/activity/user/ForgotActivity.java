@@ -1,6 +1,5 @@
 package com.feiyu.activity.user;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import com.feiyu.R;

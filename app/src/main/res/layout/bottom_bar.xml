@@ -2,9 +2,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="true">
 
     <LinearLayout
+        android:id="@+id/ll_home"
         android:layout_height="@dimen/bottom_bar_height"
         android:layout_width="0dp"
         android:layout_weight="1"
@@ -24,6 +26,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_road"
         android:layout_height="@dimen/bottom_bar_height"
         android:layout_width="0dp"
         android:layout_weight="1"
@@ -43,6 +46,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_publish"
         android:layout_height="@dimen/bottom_bar_height"
         android:layout_width="0dp"
         android:layout_weight="1"
@@ -62,6 +66,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_msg"
         android:layout_height="@dimen/bottom_bar_height"
         android:layout_width="0dp"
         android:layout_weight="1"
@@ -81,6 +86,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll_me"
         android:layout_height="@dimen/bottom_bar_height"
         android:layout_width="0dp"
         android:layout_weight="1"

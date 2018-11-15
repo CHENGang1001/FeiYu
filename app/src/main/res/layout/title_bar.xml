@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="@dimen/title_height"
-    android:background="@color/title_blue"
+    android:background="@color/blue"
     android:id="@+id/rl_title"
     >
     <ImageView
@@ -10,8 +10,7 @@
         android:layout_alignBottom="@+id/title"
         android:id="@+id/arrow"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/back"/>
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:paddingTop="30dp"

@@ -14,4 +14,13 @@
     <string name="show_activity_register">注册即代表同意：</string>
     <string name="show_feiyu_activity_register">《飞鱼旅行用户协议》</string>
 
+    <!--home-->
+    <string name="text_home">首页</string>
+    <string name="text_road">行程</string>
+    <string name="text_publish">发布</string>
+    <string name="text_msg">消息</string>
+    <string name="text_me">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

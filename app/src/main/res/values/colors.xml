@@ -6,4 +6,5 @@
     <!--themeColor-->
     <color name="blue">#00A7FE</color>
     <color name="white">#fff</color>
+    <color name="gray">#b3b1b1</color>
 </resources>
